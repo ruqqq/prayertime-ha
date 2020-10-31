@@ -1,0 +1,20 @@
+{
+  "name": "PrayerTime HA",
+  "version": "1",
+  "slug": "prayertime-ha",
+  "description": "Emits HA events on prayer time and on configurable reminder offset.",
+  "arch": ["armv7"],
+  "startup": "application",
+  "boot": "auto",
+  "host_network": true,
+  "audio": false,
+  "homeassistant_api": true,
+  "options": {
+    "reminder_offset": null,
+    "location_code": null
+  },
+  "schema": {
+    "reminder_offset": "int",
+    "location_code": "str"
+  }
+}
