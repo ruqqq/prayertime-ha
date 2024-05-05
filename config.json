@@ -10,6 +10,7 @@
   "host_network": true,
   "audio": false,
   "homeassistant_api": true,
+  "init": false,
   "options": {
     "reminder_offset": -10,
     "location_code": "SG"
